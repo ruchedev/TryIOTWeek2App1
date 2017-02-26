@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: TryIOTWeek2App1
+  host: TryIOTWeek2App1
+  disk_quota: 1024M
+  services:
+  - TryIOTWeek2App1-cloudantNoSQLDB
+  - TryIOTWeek2App1-iotf-service
